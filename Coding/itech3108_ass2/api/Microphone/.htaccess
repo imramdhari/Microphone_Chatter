@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule ^microphoneposts/?$ microphoneposts.php
+RewriteRule ^microphonepost/(\d+)/?$ microphonepost.php?id=$1
+RewriteRule ^newmicrophonepost/?$ newmicrophonepost.php
+RewriteRule ^users/?$ users.php
+RewriteRule ^like/?$ like.php
+RewriteRule ^reply/?$ reply.php
+RewriteRule ^create_user/?$ create_user.php
+RewriteRule ^login/?$ login.php
+RewriteRule ^register/?$ register.php
+RewriteRule ^read/?$ read.php
+RewriteRule ^read_one/?$ read_one.php

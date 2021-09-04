@@ -1,0 +1,161 @@
+{
+    "Microphone Posts": [
+        {
+            "id": "100",
+            "name": "Microphone Awesome",
+            "user_id": "1",
+            "post_date": "2020-06-11 10:44:14",
+            "text": "Well Microphone are good Invention ",
+            "likes": "0",
+            "reply_to": "104"
+        },
+        {
+            "id": "103",
+            "name": "Microphone Awesome",
+            "user_id": "1",
+            "post_date": "2020-06-11 10:44:14",
+            "text": "Excellent for smaller/unattractive sounding rooms for isolating the instrument",
+            "likes": null,
+            "reply_to": null
+        },
+        {
+            "id": "105",
+            "name": "Microphone Awesome",
+            "user_id": "1",
+            "post_date": "2020-06-11 10:44:14",
+            "text": "Universal multipattern studio microphone",
+            "likes": null,
+            "reply_to": null
+        },
+        {
+            "id": "101",
+            "name": "Microphone Innovative",
+            "user_id": "2",
+            "post_date": "2020-06-11 10:43:54",
+            "text": "Microphone is bad invention",
+            "likes": null,
+            "reply_to": null
+        },
+        {
+            "id": "104",
+            "name": "Microphone Innovative",
+            "user_id": "2",
+            "post_date": "2020-06-11 10:43:54",
+            "text": "Impressive for concert amplification and recording",
+            "likes": null,
+            "reply_to": null
+        },
+        {
+            "id": "106",
+            "name": "Microphone Innovative",
+            "user_id": "2",
+            "post_date": "2020-06-11 10:43:54",
+            "text": "no you are wrong",
+            "likes": null,
+            "reply_to": "105"
+        },
+        {
+            "id": "107",
+            "name": "Microphone Innovative",
+            "user_id": "2",
+            "post_date": "2020-06-11 10:43:54",
+            "text": "very good",
+            "likes": null,
+            "reply_to": "106"
+        },
+        {
+            "id": "108",
+            "name": "Microphone Innovative",
+            "user_id": "2",
+            "post_date": "2020-06-11 10:43:54",
+            "text": "Awesome",
+            "likes": null,
+            "reply_to": "103"
+        },
+        {
+            "id": "102",
+            "name": "",
+            "user_id": "3",
+            "post_date": "2020-06-09 14:58:50",
+            "text": "Microphone is sophisticated in use",
+            "likes": null,
+            "reply_to": null
+        }
+    ]
+}{
+    "Users": [
+        {
+            "id": "5",
+            "name": "anonymous",
+            "password": "123456"
+        },
+        {
+            "id": "4",
+            "name": "user30348843",
+            "password": "balvinder"
+        },
+        {
+            "id": "3",
+            "name": "FedUni",
+            "password": "moodle"
+        },
+        {
+            "id": "2",
+            "name": "David Nandigam",
+            "password": "Tutor"
+        },
+        {
+            "id": "1",
+            "name": "Balvinder Singh",
+            "password": "123456"
+        }
+    ]
+}{
+    "Likes": [
+        {
+            "post_id": "1",
+            "user_id": "1"
+        },
+        {
+            "post_id": "1",
+            "user_id": "3"
+        },
+        {
+            "post_id": "1",
+            "user_id": "3"
+        },
+        {
+            "post_id": "1",
+            "user_id": "2"
+        },
+        {
+            "post_id": "1",
+            "user_id": "1"
+        }
+    ]
+}
+
+{
+    "Microphone Posts Reply":[
+        
+    {
+        "post_id":"100",
+        "text":"Microphone is sophisticated in use",
+        "user_id":"1",
+        "post_date":"2020-06-13 12:59:25"
+    },
+   {
+            "post_id":"106",
+            "text":"Microphone is sophisticated in use",
+            "user_id":"2",
+            "post_date":"2020-06-13 12:59:25"
+    },
+    
+    {
+                "post_id":"108",
+                "text":"Microphone is sophisticated in use",
+                "user_id":"1",
+                "post_date":"2020-06-13 12:59:25"
+    }
+                          ]
+    }

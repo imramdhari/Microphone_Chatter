@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Quicksand:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+main h1{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+main h1 span{
+    color: #013388;
+}
+.reg{
+    width: 40%;
+    color: #fff;
+    padding:30px;
+    transition: all .5s;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 5px 5px 40px 10px rgba(0, 0, 0, 0.5);
+}
+.reg h1{
+    margin-bottom: 30px;
+
+}
+.reg input{
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid #013388;
+    font-family: 'Quicksand', sans-serif;
+}
+.reg .names{
+    display: flex;
+    justify-content: space-between;
+}
+.reg .names input{
+    width: 49%;
+}
+.reg input:focus{
+    background-color:#013288c9 ;
+    outline-color: transparent;
+}
+.reg label{
+    display: block;
+    font-size: 14px;
+}
+.reg label span{
+    color: crimson;
+}
+
+.sub-btn{
+    margin: 15px 0px;
+}
+.sub-btn button{
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #013388;
+    position: relative;
+    cursor: pointer;
+    z-index: 9;
+}
+.sub-btn button::before{
+    content: '';
+    position: absolute;
+    height: 101%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color: #013288c9;
+    transition: all .5s;
+    z-index: -1;
+}
+.sub-btn button:hover::before{
+    width: 100%;
+}
+
+@media screen and (max-width:1200px){
+    .reg{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    main h1{
+        font-size: 5vw;
+    }
+    .reg{
+        width: 70%;
+    }
+}
+@media screen and (max-width:575px){
+    .reg{
+        width: 90%;
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        height: auto;
+        min-height: 100vh;
+    }
+    .reg{
+        width: 98%;
+    }
+}
